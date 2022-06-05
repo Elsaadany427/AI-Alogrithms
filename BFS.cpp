@@ -6,13 +6,6 @@ map < string, string > parent ;
 map < string, bool > visited;
 map < string, long long > level;
 
-/*
- * Time Complexity (O(b^d))
- * Space Complexity (O(b^d))
- * Characteristics of BFS
- * 		* Complete
- * 		* Optimal solution (if step cost are identical)
- * */
 void BFS(string from, string to){
 	
 	queue < string > q;
