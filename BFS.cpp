@@ -64,10 +64,9 @@ void solve(){
 	cin >> nodes >> edges;
 	
 	string u, v; 
-	long long weight;
 	while(edges--){
 		
-		cin >> u >> v >> weight;
+		cin >> u >> v;
 		
 		addEdges(u, v);
 
